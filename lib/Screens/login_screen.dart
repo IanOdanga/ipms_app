@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:ipms_app/Screens/home_screen.dart';
 import 'package:ipms_app/utils/header_widget.dart';
 import 'package:ipms_app/utils/theme_helper.dart';
 
@@ -81,7 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   child: Text('Sign In'.toUpperCase(), style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),),
                                 ),
                                 onPressed: (){
-                                  //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ProfilePage()));
+                                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
                                 },
                               ),
                             ),
