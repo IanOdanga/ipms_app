@@ -1,6 +1,6 @@
 # ipms_app
 
-A new Flutter project.
+An integrated parking management system application that can be used to book parking spots and pay for parking fees in private parkings, city council parking areas, malls etc.
 
 ## Getting Started
 
